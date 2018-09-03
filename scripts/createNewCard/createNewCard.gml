@@ -4,20 +4,21 @@ var value = argument1;
 var isShown = argument2;
 xDest = (room_width/2)-(objData.cardWidth/2); 
 if (side == 0){
-	yDest = (room_height/2) + objData.cardHeight; 
+	yDest = (room_height/2) + objData.cardHeight/2; 
 	yStart = objPlayerDeck.y;
 	
 
 }
 else {
-	yDest = (room_height/2) - ( 2 * objData.cardHeight ); 
+	yDest = (room_height/2) - ( 1.5 * objData.cardHeight ); 
 	yStart = objEnemyDeck.y;
 }
 var newCard = instance_create_depth(xDest, yStart, -2, objCard);
-newCard.xDest = xDest; 
-newCard.yDest = yDest; 
+newCard.destX = xDest; 
+newCard.destY = yDest; 
 newCard.side = side; 
-newCard.alarm[0] = 90;
+newCard.isRevealed = isShown;
+newCard.alarm[2] = 21;
 //value assigning for new cards
 if (value < 22 ) {
 	newCard.suite = 0;	
