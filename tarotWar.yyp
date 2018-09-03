@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1ed2ac57-77a8-44a2-934a-e91b783807f8",
+            "Value": {
+                "id": "5942a817-dcf4-4a95-bc99-04b2370f556a",
+                "resourcePath": "scripts\\moveCards\\moveCards.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "29186c4b-d037-435c-9a42-a371cc8b8974",
             "Value": {
                 "id": "def1f3a3-0623-4cd9-8dc2-d3b7324cfcae",
@@ -340,7 +348,8 @@
         "7d695e9f-d890-4a9f-9118-778c447f6b2d",
         "b191365d-4755-4df0-b6ae-22783a01f4cb",
         "7fe2bf44-21e2-4f58-ac2e-13e9ed643f3f",
-        "12b8ea1b-6b33-42c1-b1ec-f2492ea62809"
+        "12b8ea1b-6b33-42c1-b1ec-f2492ea62809",
+        "1ed2ac57-77a8-44a2-934a-e91b783807f8"
     ],
     "tutorial": ""
 }

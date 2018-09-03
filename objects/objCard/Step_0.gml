@@ -1,4 +1,4 @@
 if (isAnimating) {
-	y+=stepDist;
-	x+=stepDist;
+	y+=stepDistY;
+	x+=stepDistX;
 }

@@ -13,9 +13,10 @@ else {
 	yDest = (room_height/2) - ( 1.5 * objData.cardHeight ); 
 	yStart = objEnemyDeck.y;
 }
-var newCard = instance_create_depth(xDest, yStart, -2, objCard);
+var newCard = instance_create_depth(xDest, yStart, -2-objData.cardsPlayed, objCard);
 newCard.destX = xDest; 
-newCard.destY = yDest; 
+newCard.destY = yDest;
+newCard.cardNum  = value;
 newCard.side = side; 
 newCard.isRevealed = isShown;
 newCard.alarm[2] = 21;
@@ -43,21 +44,20 @@ else if (value < 78 ) {
 if (isShown) {
 	if (side == 0) {
 		if (newCard.suite != 0 ) {
-			objData.playerCardVal = value; 
+			objData.playerCardVal = newCard.value; 
 		}
 		else {
 			objData.playerCardVal = 20; 
 		}
-		objData.playerCardAlive = true; 
 	}
 	else {
 		if (newCard.suite != 0 ) {
-			objData.enemyCardVal = value; 
+			objData.enemyCardVal = newCard.value; 
 		}
 		else {
 			objData.enemyCardVal = 20; 
 		}
-		objData.enemyCardAlive = true; 
 	}
 }
 objData.alarm[1] = 90;
+objData.cardsPlayed++;
