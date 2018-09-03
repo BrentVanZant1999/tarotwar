@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "02572901-33dc-4ebf-acc4-d1eeff883b0c",
+            "Value": {
+                "id": "1f739701-6ec9-4546-a72d-6dc496bf28bf",
+                "resourcePath": "objects\\objData\\objData.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "12b8ea1b-6b33-42c1-b1ec-f2492ea62809",
+            "Value": {
+                "id": "07b106db-8f7e-4fc5-b342-3cf5f02a0251",
+                "resourcePath": "scripts\\createNewCard\\createNewCard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "29186c4b-d037-435c-9a42-a371cc8b8974",
             "Value": {
                 "id": "def1f3a3-0623-4cd9-8dc2-d3b7324cfcae",
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "7fe2bf44-21e2-4f58-ac2e-13e9ed643f3f",
+            "Value": {
+                "id": "f6332dc4-e522-44a2-826b-dc7c7d586b7f",
+                "resourcePath": "scripts\\drawCard\\drawCard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ffa4153-9bbb-4f9b-b6fb-62fe7d77b7a5",
             "Value": {
                 "id": "d7662059-1706-4faf-ae2f-ae2b00603833",
@@ -247,6 +271,14 @@
             }
         },
         {
+            "Key": "c28cd216-716d-497e-a482-ac111d0f97ed",
+            "Value": {
+                "id": "10c5cb8e-28d8-46fe-b69e-64512ac796da",
+                "resourcePath": "fonts\\ft_cardText\\ft_cardText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c6e4cf7c-df24-4155-8f99-34773072841c",
             "Value": {
                 "id": "53835984-0a47-4707-a5dc-4911f699aaa9",
@@ -293,12 +325,22 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f8025677-1340-4402-810a-b3f067dbc947",
+            "Value": {
+                "id": "305a3214-539e-4a30-aab7-044272c80096",
+                "resourcePath": "sprites\\sprDeckHitbox\\sprDeckHitbox.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
         "5a6652df-d619-4719-aa18-ec553b9149df",
         "7d695e9f-d890-4a9f-9118-778c447f6b2d",
-        "b191365d-4755-4df0-b6ae-22783a01f4cb"
+        "b191365d-4755-4df0-b6ae-22783a01f4cb",
+        "7fe2bf44-21e2-4f58-ac2e-13e9ed643f3f",
+        "12b8ea1b-6b33-42c1-b1ec-f2492ea62809"
     ],
     "tutorial": ""
 }

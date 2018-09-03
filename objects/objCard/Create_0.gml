@@ -3,7 +3,15 @@ suite = -1;
 cardWidth = 50;
 cardHeight = 90;
 
+faceUp = false;
 stepDist = 0;
+
+revealAnimation = 5; 
+isRevealed = false;
 isAnimating = true; 
 
-displayValueTime = 45;
+
+displayValueTimer = 90;
+playerCardAlive = false;
+enemyCardAlive = false;
+specialAnimationTimer = 20;

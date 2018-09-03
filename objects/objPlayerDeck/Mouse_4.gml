@@ -1,0 +1,1 @@
+drawCard(objData.isWar, 0);
